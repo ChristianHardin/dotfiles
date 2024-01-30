@@ -18,3 +18,8 @@ Requirements:
 Requirements:
 - Fira Code (ttf-fira-code)
 - tmux
+
+# Awesome
+RequirementsL
+- Dunno
+- This is broken
