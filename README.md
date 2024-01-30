@@ -1,11 +1,15 @@
 # Dotfiles
-Uses GNU Stow
+Uses GN Stow
 
 # ZSH
----
 Requirements:
 - Zsh
 - Zoxide
 - Starship
 - zsh-autocomplete
-- https://github.com/marlonrichert/zsh-autocomplete
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+
+# Nvim
+Requirements:
+- Node v18+
