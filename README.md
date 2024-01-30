@@ -13,3 +13,8 @@ Requirements:
 # Nvim
 Requirements:
 - Node v18+
+
+# Alacritty
+Requirements:
+- Fira Code (ttf-fira-code)
+- tmux
