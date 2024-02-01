@@ -4,7 +4,6 @@ source_if_exists () {
     fi
 }
 
-# source_if_exists $HOME/.config/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source_if_exists /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source_if_exists /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source_if_exists /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -15,7 +14,7 @@ SAVEHIST=100000
 HISTFILE=$HOME/.config/zsh/.zsh_history
 
 # History Options
-setopt EXTENDED_HISTORY
+# setopt EXTENDED_HISTORY
 
 # Applications
 eval "$(starship init zsh)"
@@ -47,3 +46,14 @@ export VISUAL="nvim"
 # Keybindings
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
+
+## workaround for handling TERM variable in multiple tmux sessions properly (by Nicholas Marriott)
+if [[ -n ${TMUX} && -n ${commands[tmux]} ]];then
+        case $(tmux showenv TERM 2>/dev/null) in
+                *256color) ;&
+                TERM=fbterm)
+                        TERM=screen-256color ;;
+                *)
+                        TERM=screen
+        esac
+fi

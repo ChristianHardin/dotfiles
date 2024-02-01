@@ -20,3 +20,4 @@ startup_mode = "Windowed"
 
 [shell]
 program = "/usr/bin/tmux"
+args = ["-2"]
