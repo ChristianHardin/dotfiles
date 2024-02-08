@@ -1,6 +1,13 @@
 require("lazy").setup({
+      -- {
+      --     "folke/tokyonight.nvim",
+      --     lazy = false,
+      --     priority = 1000,
+      --     opts = {},
+      -- },
+
     {
-        "folke/tokyonight.nvim",
+        "Mofiqul/dracula.nvim",
         lazy = false,
         priority = 1000,
         opts = {},

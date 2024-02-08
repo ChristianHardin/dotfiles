@@ -8,4 +8,5 @@ require('herman.config.lsp')
 require('herman.config.copilot')
 
 -- Themes
-require('herman.config.tokyonight')
+-- require('herman.config.tokyonight')
+require('herman.config.dracula')

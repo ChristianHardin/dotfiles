@@ -38,6 +38,7 @@ alias vi="nvim"
 alias nano="nvim"
 alias pacman-clean="sudo pacman -Qdtq | sudo pacman -Rs -" 
 alias pacman-cache="sudo pacman -Sc"
+alias psource="source ./venv/bin/activate"
 
 # Environment
 export EDITOR="nvim"
