@@ -1,5 +1,6 @@
 # Dotfiles
-Uses GN Stow
+- Uses GNU Stow
+- Theming mostly Dracula from "https://draculatheme.com"
 
 # ZSH
 Requirements:
@@ -18,6 +19,10 @@ Requirements:
 Requirements:
 - Fira Code (ttf-fira-code)
 - tmux
+
+# Tmux
+Requirements:
+- tmux-plugin-manager
 
 # Awesome
 RequirementsL
