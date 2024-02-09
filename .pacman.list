@@ -8,3 +8,4 @@ neovim
 nodejs-lts-hydrogen
 ttf-fira-code
 tmux
+tmux-plugin-manager
