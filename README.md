@@ -23,8 +23,3 @@ Requirements:
 # Tmux
 Requirements:
 - tmux-plugin-manager
-
-# Awesome
-RequirementsL
-- Dunno
-- This is broken
