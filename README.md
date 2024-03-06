@@ -10,6 +10,8 @@ Requirements:
 - zsh-autocomplete
 - zsh-autosuggestions
 - zsh-syntax-highlighting
+- lsd
+- bat
 
 # Nvim
 Requirements:
