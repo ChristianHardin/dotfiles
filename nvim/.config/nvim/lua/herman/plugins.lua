@@ -65,6 +65,6 @@ require("lazy").setup({
         opts = {} -- this is equalent to setup({}) function
     },
 
-    {"zbirenbaum/copilot.lua"},
-    {"zbirenbaum/copilot-cmp"},
+    --{"zbirenbaum/copilot.lua"},
+    --{"zbirenbaum/copilot-cmp"},
 })
