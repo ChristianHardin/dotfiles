@@ -1,5 +1,3 @@
-vim.cmd[[colorscheme dracula]]
-
 vim.opt.guicursor = "";
 
 vim.opt.nu = true;

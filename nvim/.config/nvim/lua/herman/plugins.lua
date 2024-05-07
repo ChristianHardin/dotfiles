@@ -6,8 +6,15 @@ require("lazy").setup({
       --     opts = {},
       -- },
 
+    -- {
+    --     "Mofiqul/dracula.nvim",
+    --     lazy = false,
+    --     priority = 1000,
+    --     opts = {},
+    -- },
+
     {
-        "Mofiqul/dracula.nvim",
+        'rebelot/kanagawa.nvim',
         lazy = false,
         priority = 1000,
         opts = {},

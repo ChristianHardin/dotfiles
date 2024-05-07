@@ -9,4 +9,5 @@ require('herman.config.lsp')
 
 -- Themes
 -- require('herman.config.tokyonight')
-require('herman.config.dracula')
+-- require('herman.config.dracula')
+require('herman.config.kanagawa')
