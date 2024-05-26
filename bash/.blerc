@@ -14,14 +14,13 @@ source_if_exists /usr/share/bash-completion/bash_completion
 ble-import -d integration/fzf-completion
 ble-import -d integration/fzf-key-bindings
 
-bleopt complete_auto_complete=300
+bleopt complete_auto_complete=10000
 bleopt exec_errexit_mark=
 bleopt exec_exit_mark=
 
 shopt -s autocd
 shopt -s checkwinsize
 
-alias rm="trash"
 alias ls="exa"
 alias l="ls -l"
 alias ll="ls -al"
