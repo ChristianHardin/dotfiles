@@ -6,10 +6,10 @@ require("lazy").setup({
         opts = {},
     },
 
-    {
-        'nvim-lualine/lualine.nvim',
-        -- dependencies = { 'nvim-tree/nvim-web-devicons' }
-    },
+--    {
+--        'nvim-lualine/lualine.nvim',
+--        -- dependencies = { 'nvim-tree/nvim-web-devicons' }
+--    },
 
     {
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
