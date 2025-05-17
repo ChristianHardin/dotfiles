@@ -24,7 +24,8 @@ alias vi="nvim"
 alias nano="nvim"
 alias edit-limine="sudo nvim /boot/limine/limine.cfg"
 alias edit-initramfs="sudo nvim /etc/mkinitcpio.conf"
-alias update-initramfs="sudo mkinitcpio -P"
+#alias update-initramfs="sudo mkinitcpio -P"
+alias update-initramfs="sudo limine-mkinitcpio"
 
 export HISTCONTROL=ignoredups
 export HISTCONTROL=erasedups
