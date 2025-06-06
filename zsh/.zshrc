@@ -53,5 +53,8 @@ alias jctl="journalctl -p 3 -xb"
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
+# See Open Ports (Verify UFW)
+alias port-status="sudo iptables -L -v -n"
+
 # Bitwarden SSH AUTH
 export SSH_AUTH_SOCK=/home/herman/.bitwarden-ssh-agent.sock
